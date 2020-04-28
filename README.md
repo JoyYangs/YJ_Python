@@ -1,2 +1,12 @@
 # YJ_Python
-collection of Python codes
+### if语句的使用
+
+### while语句的使用
+
+### if和while结合的一个小游戏
+
+### 游戏的优化
+
+### 列表和序列
+
+### 遍历列表
