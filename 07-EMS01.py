@@ -35,8 +35,14 @@ while True :
 	elif select == 3 :
 		del_num = int(input("请选择要删除的员工编号:"))
 		if del_num <= len(user_list) :
-			del user_list[del_num - 1]
-			print("删除成功")
+			print("员工信息:")
+			print(f"\t{del_num}\t{user_list[del_num - 1]}")
+			is_del = input( "请确认是否删除[y/n]:")
+			if is_del == 'y' :
+				del user_list[del_num - 1]
+				print("删除成功")
+			else :
+				print("放弃删除！")
 		else :
 			print("员工不存在！请确认操作")
 	elif select == 4 :
