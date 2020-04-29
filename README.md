@@ -22,3 +22,42 @@
 
 ### 面向对象---类，封装，继承，多态
 
+
+
+
+
+
+
+
+
+
+
+# ---------------------------------------------------
+### 一些python和其他语言容易混淆的地方
+### 语法上
+	不要用分号 不要用分号 不要用分号
+	换行 缩进 严格遵守
+### 面向对象的特性继承上
+	class Son(Father) :
+		...
+		def __init__(self):
+			// super
+			// self
+
+	class JavaClass extends FatherClass {
+		...
+		JavaClass() {}
+	}
+
+	class CPP_Class: public FatherClass {
+		...
+		CPP_Class() {}
+	};
+
+	@interface OC_Class: FatherClass
+	... 
+	属性
+	方法声明
+	@end
+
+
