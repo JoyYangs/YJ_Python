@@ -21,12 +21,13 @@ def quick_sort(nums, L, R):
 		if left >= right: 
 			nums[left] = pivot
 
-	quick_sort(nums, L, R-1)
-	quick_sort(nums, R+1, L)
+	# right有变化，R没有变化
+	quick_sort(nums, L, right-1)
+	quick_sort(nums, right+1, R)
 
 	return nums
 
-nums = [3,1,10,4,8,2,6,0]
+nums = [3,1,10,4,8,2,6,0,-1,-4,-3,-4,-2,0,-7,0,1]
 print(quick_sort(nums, 0, len(nums) - 1))
 
 		
